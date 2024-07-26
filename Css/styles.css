@@ -42,5 +42,26 @@ background-color: rgb(155, 151, 151);
 }
 
 #logo{
-    width: 75px;
+    width: 100px;
 }
+#Principal{
+
+color: black;
+text-align: center;
+font-family: 'Roboto';
+border-radius: 1em;
+padding: 0px, 5px, 0px, 5px;
+
+
+
+
+} .sessaoPrincipal,h3{
+    padding: 15px 0px  15px 0px;
+    margin: 15px 0px 15px 0px;
+    border-color: aqua;
+    
+
+
+
+}
+
