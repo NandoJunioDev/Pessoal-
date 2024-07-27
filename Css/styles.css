@@ -64,4 +64,20 @@ padding: 0px, 5px, 0px, 5px;
 
 
 }
+.Rodape{
 
+color: brown;
+padding: 1em 0em 1em 0em;
+margin: 1em 0em 1em 0em;
+background: rgba(58, 5, 5, 0.418);
+border: 0em 50em  0em 50em;
+font-size: 18px;
+box-sizing: content-box;
+width: 100%;
+
+
+
+
+
+
+}
