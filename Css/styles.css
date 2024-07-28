@@ -9,7 +9,7 @@ color: brown;
 
 }
 body{
-
+    
 
     font-family: 'Roboto', sans-serif;
 }
@@ -68,11 +68,14 @@ padding: 0px, 5px, 0px, 5px;
 
 color: brown;
 padding: 1em 0em 1em 0em;
-margin: 1em 0em 1em 0em;
+margin: auto;
 background: rgba(58, 5, 5, 0.418);
-border: 0em 50em  0em 50em;
-font-size: 18px;
+border-width: 20px;
+border-style: solid;
+font-size: 10px;
 box-sizing: content-box;
+outline: 10px solid black;
+
 width: 100%;
 
 
@@ -80,4 +83,39 @@ width: 100%;
 
 
 
+
 }
+a{
+
+    color: rgb(80, 94, 18);
+}
+.info{
+
+
+    padding: 1px 5px 5px 1px;
+    margin: auto
+}
+a {
+    padding: 5px;
+    text-indent: 0px;
+    font-family: 'Roboto';
+    font-size: px;
+    display: inline;
+
+    
+}
+.Links ul{
+
+   padding: 0px 0px 0px 5px;
+    margin: auto;
+    height: auto;
+    font-style: italic;
+    font-size: 18px;
+    background-color: antiquewhite;
+    list-style-position: inside;
+    
+    
+
+    
+}
+
