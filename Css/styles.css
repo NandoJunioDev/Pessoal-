@@ -105,18 +105,20 @@ a {
 
     
 }
-.Links ul{
+.Links, ul{
 
    padding: 0px 0px 0px 5px;
     margin: auto;
     height: auto;
     font-style: italic;
     font-size: 18px;
-    background-color: antiquewhite;
+    
     list-style-position: inside;
+    list-style: none;
     
     
 
     
 }
+
 
