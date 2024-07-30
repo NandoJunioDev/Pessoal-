@@ -1,4 +1,8 @@
 @charset "utf-8";
+
+html,body{
+height: 100%;
+}
 h1{
 
 
@@ -6,6 +10,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-weight: bold;
 font-display: initial;
 color: brown;
+
 
 }
 body{
@@ -56,27 +61,35 @@ padding: 0px, 5px, 0px, 5px;
 
 
 } .sessaoPrincipal,h3{
-    padding: 15px 0px  15px 0px;
-    margin: 15px 0px 15px 0px;
+    padding: 1em 1em 1em 1em;
+    margin: 1em 1em 1em 1em;
     border-color: aqua;
     
 
 
 
 }
-.Rodape{
+.Rodape div {
 
-color: brown;
+color: rgb(156, 28, 28);
 padding: 1em 0em 1em 0em;
 margin: auto;
 background: rgba(58, 5, 5, 0.418);
-border-width: 20px;
+border-width: 10px;
 border-style: solid;
 font-size: 10px;
 box-sizing: content-box;
 outline: 10px solid black;
+flex-direction: row;
 
-width: 100%;
+
+display: flex;
+
+
+
+
+
+
 
 
 
@@ -93,19 +106,31 @@ a{
 
 
     padding: 1px 5px 5px 1px;
-    margin: auto
+   
+  margin:50 px  ;
+ width: 500px;
+
+ justify-content: flex-end;
+ align-items:flex-start;
+  flex-basis: auto;
+  margin: auto;
+  
+   
+
+    
     
 }
 a {
-    padding: 5px;
+    padding: 2px;
     text-indent: 0px;
     font-family: 'Roboto';
-    font-size: px;
-    display: inline;
+    
+    
+    
 
     
 }
-.Links, ul{
+.Links {
 
    padding: 0px 0px 0px 5px;
     margin: auto;
@@ -115,6 +140,14 @@ a {
     
     list-style-position: inside;
     list-style: none;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: flex-start;
+    justify-items: center;
+    background-color: rgba(240, 248, 255, 0.699);
+    
+    
+    
     
     
 
