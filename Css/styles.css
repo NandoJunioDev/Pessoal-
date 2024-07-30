@@ -141,8 +141,15 @@ padding: 5%;
 }
 .Rodape__Info--flex h4{
 
-
-font-style: italic;
+font-weight: bold;
+font-size: 1.7em;
+font-style: oblique;
+font-display: unset;
+font: optional;
+text-shadow: 2px 1px black;
+background-color: rgba(0, 0, 0, 0.352);
+background-size: 1px
+        
     
 }
 
