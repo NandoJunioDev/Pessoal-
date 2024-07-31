@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-html,body{
-height: 100%;
-}
+
 h1{
 
 
@@ -15,8 +13,9 @@ color: brown;
 }
 body{
     
-
+    margin: 0%;
     font-family: 'Roboto', sans-serif;
+   
 }
 .row{
     margin:  0;
@@ -70,30 +69,10 @@ padding: 0px, 5px, 0px, 5px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a{
 
     color: rgb(80, 94, 18);
 }
-
-  
-   
-
-    
-    
 
 a {
     padding: 2px;
@@ -105,53 +84,63 @@ a {
 
     
 }
-.Rodape__Info--flex{
-
-display: flex;
-flex-direction: row;
-background-color: aqua;
-border: 10px solid red;
-justify-content: center;
-align-items: flex-start;
-width: 100%;
-min-width: 20%;
-
-
-
-
-
+.footer{
+  border: 5px  solid black;
+  
+  margin: auto;
+ 
+  
 
 }
-
-
-.Rodape__Info--flex div{
+.footer__section{
+    border: 6px solid rgb(102, 100, 100);
     
-border: 5px solid black;
-
-justify-content: center;
-justify-items: center;
-background-color: rgba(165, 42, 42, 0.696);
-width: 50%;
-margin: 1%;
-padding: 5%;
-
-
-
-
-}
-.Rodape__Info--flex h4{
-
-font-weight: bold;
-font-size: 1.7em;
-font-style: oblique;
-font-display: unset;
-font: optional;
-text-shadow: 2px 1px black;
-background-color: rgba(0, 0, 0, 0.352);
-background-size: 1px
-        
+    display: flex;
+   
+   
+   gap: 50%;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    
+    
     
 }
+.footer__section__Div--contato{
+    border: 7px solid orange;
+    background-color: rgba(210, 105, 30, 0.658);
+    width: 300px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.footer__section__Div--ul  {
+    border: 8px solid green;
+    align-items: center
+    ;
+    justify-items: center;
+    justify-self: center;
+    padding: 20px;
+    border: 8px solid red;
+}
+.footer__section__Div--contato--h4{
+
+text-align: center;
+text-shadow: 2px 1px rgba(255, 0, 0, 0.322);
+text-decoration: underline;
+box-shadow: 2px 1px black;
+
+}
+
+
+
+
+
+
+
+
+
 
     
     
