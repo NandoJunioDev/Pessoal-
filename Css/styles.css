@@ -85,51 +85,25 @@ a {
     
 }
 .footer{
-  border: 5px  solid black;
   
-  margin: auto;
- 
   
 
 }
 .footer__section{
-    border: 6px solid rgb(102, 100, 100);
     
-    display: flex;
-   
-   
-   gap: 50%;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
     
     
     
 }
 .footer__section__Div--contato{
-    border: 7px solid orange;
-    background-color: rgba(210, 105, 30, 0.658);
-    width: 300px;
-    justify-items: center;
-    align-items: center;
-    padding: 20px;
-
+    
 }
 .footer__section__Div--ul  {
-    border: 8px solid green;
-    align-items: center
-    ;
-    justify-items: center;
-    justify-self: center;
-    padding: 20px;
-    border: 8px solid red;
+   
 }
 .footer__section__Div--contato--h4{
 
-text-align: center;
-text-shadow: 2px 1px rgba(255, 0, 0, 0.322);
-text-decoration: underline;
-box-shadow: 2px 1px black;
+
 
 }
 
