@@ -49,36 +49,38 @@ background-color: rgb(155, 151, 151);
     width: 100px;
 }
 .Principal{
-    /*border: 5px solid red;*/
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-   text-align: center;
-
+   
+    display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows:   1fr  ;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     justify-items: center;
+    
+     
 }
 .Principal__div{
-    border: 5px solid black;
-    justify-content: center;
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
+    
 }
 .Principal__div__h3{
 
     border: 5px solid green;
+    
 }
 .Principal__div__p{
     border: 5px solid greenyellow;
+    text-align: center;
+    margin-bottom: 100px;
 }
 .Principal__div2{
 
     border: 5px solid blue;
+    
 }
 .Principal__div2_img{
     border: 4px solid crimson;
+    width: 5%;
     
 }
 
@@ -110,12 +112,13 @@ a {
     
     
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 0.5fr 0.5fr ;
+    grid-template-rows: 0.5fr 0.5fr ;
     align-items: center;
     align-content: center;
     border: 1px solid black;
-    background-color: rgba(0, 255, 255, 0.322);
+
+   
     
    
     
@@ -126,10 +129,9 @@ a {
 .footer__section__Div--contato{
     
     
-    padding: 20px;
+    padding: 10px;
    
-    background-color: bisque;
-   
+    
     display: grid;
     
     
@@ -153,7 +155,7 @@ a {
     align-items: center;
     padding: 20px;
     margin: 20px;
-    background-color: bisque;
+   
     
 }
 
@@ -169,8 +171,12 @@ list-style-type: none;
 
 
 }
-.footer__section__Div--ul  {
+.footer__section__Div--ul:hover  {
     
+    box-shadow: 2px 2px black;
+    margin: 5%;
+    padding: 5%;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.495);
     
     
 }
@@ -181,12 +187,20 @@ margin-left: 5%;
 
 }
 .footer__section__Div--ul a{
-
 padding: 5%;
 
 }
 
+.art{
 
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 1fr;
+   align-items: center;
+   justify-items: center;
+
+}
 
 
 
