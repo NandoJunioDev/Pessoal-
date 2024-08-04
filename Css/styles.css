@@ -15,6 +15,8 @@ body{
     
     margin: 0%;
     font-family: 'Roboto', sans-serif;
+    background-color:#4c0d47de ;
+    color: whitesmoke;
    
 }
 .row{
@@ -35,8 +37,9 @@ p,li{
 }
 /* Barra de Navegaçao*/
 header, .navbar{
+    
 
-background-color: rgb(155, 151, 151);
+background-color: #35062ea8;
 
 
 }
@@ -72,6 +75,7 @@ background-color: rgb(155, 151, 151);
     border: 5px solid greenyellow;
     text-align: center;
     margin-bottom: 100px;
+    color: white;
 }
 .Principal__div2{
 
@@ -168,6 +172,7 @@ border: px solid black;
 justify-self: flex-start;
 align-self: flex-end;
 list-style-type: none;
+color: white;
 
 
 }
@@ -176,8 +181,8 @@ list-style-type: none;
     box-shadow: 2px 2px black;
     margin: 5%;
     padding: 5%;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.495);
-    
+    text-shadow: 1px 1px rgba(255, 252, 252, 0.495);
+    color: white;
     
 }
 .footer__section__Div--contato--h4{
@@ -186,8 +191,9 @@ text-align:left;
 margin-left: 5%;
 
 }
-.footer__section__Div--ul a{
+.footer__section__Div--ul a li {
 padding: 5%;
+color: white;
 
 }
 
@@ -199,13 +205,32 @@ padding: 5%;
     gap: 1fr;
    align-items: center;
    justify-items: center;
+   justify-content: center;
+   align-content: center;
 
 }
+.art-div{
+
+border: 5px solid white;
+
+}
+#button{
+    align-self: center;
+    justify-self: center;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 200px;
+  padding-inline: 0px;
+    
+}
+
 /*.color1 { #791978 };
 .color2 { #621360 };
 .color3 { #4c0d47 };
 .color4 { #35062e };
 .color5 { #1e0015 };*/
+
+
 
 
 
