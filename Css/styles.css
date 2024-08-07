@@ -11,12 +11,19 @@ color: brown;
 
 
 }
-body{
+body,html{
     
     margin: 0%;
     font-family: 'Roboto', sans-serif;
     background-color:#4c0d47de ;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    min-width: 100vh
    
 }
 .row{
@@ -229,6 +236,46 @@ border: 5px solid white;
 .color3 { #4c0d47 };
 .color4 { #35062e };
 .color5 { #1e0015 };*/
+
+
+ form{
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(43, 108, 165);
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px black;
+
+
+ }
+ fieldset{
+
+    border: none;
+
+ }
+input,
+label{
+
+display: block;
+width: 100%;
+box-sizing: border-box;
+
+}
+label{
+    margin-bottom: .20em;
+}
+input{
+    padding: .75em;
+    margin-bottom: 1.5em;
+    border: 1px solid black;
+    font-size: 1em;
+}
+legend{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: chocolate;
+    font-size: 1.4em;
+}
 
 
 
