@@ -260,6 +260,11 @@ legend{
     color: chocolate;
     font-size: 1.4em;
 }
+ 
+    
+@media screen and (max-width: 990px) {
+    
+}
 
 
 
