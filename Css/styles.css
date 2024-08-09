@@ -86,7 +86,9 @@ background-color: #35062ea8;
 
     
 }
-
+img{
+    max-width: 100%;
+}
 a{
 
     color: rgb(80, 94, 18);
