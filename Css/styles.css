@@ -17,7 +17,7 @@ body,html{
     font-family: 'Roboto', sans-serif;
     background-color:#4c0d47de ;
     
-   
+  
    
 }
 .row{
@@ -79,12 +79,16 @@ background-color: #35062ea8;
 .Principal__div2{
 
    border: 10px solid blueviolet;
+   max-width: 100%;
 }
 .Principal__div2_img{
     border: 4px solid crimson;
-    
+    max-width: 100%;
 
     
+}
+img{
+    max-width: 100%;
 }
 
 a{
@@ -260,6 +264,8 @@ legend{
 }
 
 
+@media screen and (max-width:1020px)
+    
 
 
 
