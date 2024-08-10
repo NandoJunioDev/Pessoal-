@@ -90,7 +90,6 @@ background-color: #35062ea8;
 img{
     max-width: 100%;
 }
-
 a{
 
     color: rgb(80, 94, 18);
@@ -262,9 +261,14 @@ legend{
     color: chocolate;
     font-size: 1.4em;
 }
+ 
+    
+@media screen and (max-width: 990px) {
+    
+}
 
 
-@media screen and (max-width:1020px)
+
     
 
 
