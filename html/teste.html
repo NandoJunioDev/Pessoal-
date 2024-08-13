@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style> 
@@ -10,64 +12,114 @@
         box-sizing: border-box;
     }
     body{
-        display: grid;
+         display: grid;
+            grid-template-areas: "header header header"
+                               "aside main main" 
+                                "footer footer footer";
+            grid-template-columns: auto auto auto;
+
+            grid-row: auto 100vh auto;
+
+            gap: 30px;
+
+
+         
+    }
+    #o_header,#o_main,#o_aside,#o_footer{
+        background-color: blueviolet;
+        color: aqua;
+        padding: 4em;
+        margin: 1em;
+    }
+    #o_header{
+        grid-area: header;
         
-        grid-template-columns: repeat(3,.5fr);
-        grid-area: "di1 div2";
+
+    }
+    #o_main{
+        grid-area:main ;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto ;
+        grid-template-areas: "div1 div1"
+                                "div2 div2";
+        gap: 1em;                        
+        
+    }
+    #o_main__div_img{
+        grid-area: div2;
+
+    }
+    
+    
+    #o_main__div_iframe{
+        grid-area: div1;
+        max-width:100% ;
+        max-height: 100%;
+    }
+
+    #o_aside{
+        grid-area: aside;
+    }
+    #o_footer{
+        grid-area: footer;
 
     }
     img{
-        max-width: 50%;
+        max-width: 100%;
     }
 
 
-    
 
     
 
-      
-
+   
+    
 
     </style>
     <title>gallery  </title>
 </head>
 <body>
     
-    <section id="sec1">
-        <div id="div1">
-                <img src="../imagem/Material/ai-generated-8366445_640.jpg" alt="">
+    <header id="o_header">cabeçalho
+        <div>
+            <nav>
+                <span class="material-symbols-outlined">
+                    login
+                    </span>
+                <a href="#"> Login</a>
+                <span class="material-symbols-outlined">
+                    passkey
+                    </span>
+                <a href="#"> Cadastra-se</a>
+            </nav>
         </div>
-        <div id="div2">
-            <img src="../imagem/Material/ai-generated-7832112_640.jpg" alt="">
-    </div>
-    <div id="div2">
-        <img src="../imagem/Material/ai-generated-8891072_640.jpg" alt="">
-</div>
+            
         
-
-    </section>
-    <section id="sec2">
-        <div id=".div3">
+    </header>
+    <main id="o_main"> Conteudo main 
+        <div id="o_main__div_img">
             <img src="../imagem/Material/ai-generated-8432244_640.jpg" alt="">
-            <div id=".div4">
-                <img src="../imagem/Material/ai-generated-8610368_640.png" alt="">
-            <div id=".div5">
-                <img src="../imagem/Material/ai-generated-8890886_640.jpg" alt="">
-                    
         </div>
-    </div>
-    </section>
-    <section>
-
-        <div id="div6">
-
-            <img src="../imagem/Material/androgynous-avatar-non-binary-queer-person.jpg" alt="">
+        
+            
+        
+        <div id="o_main__div_iframe">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Tn_nF545FTo?si=-CIwP5bUGaiEpcLu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div div="div7">
 
-            <img src="../imagem/Material/girl-8937918_640.png" alt="">
-        </div>
-    </section>
+
+
+
+
+
+
+    </main>
+
+    <aside id="o_aside">menu lateral</aside>
+
+    <footer id="o_footer">rodape </footer>
+    
     
 
 
